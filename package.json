@@ -1,0 +1,19 @@
+{
+  "name": "crisperwhisper",
+  "version": "1.0.0",
+  "description": "**CrisperWhisper** is an advanced variant of OpenAI's Whisper, designed for fast, precise, and verbatim speech recognition with accurate (**crisp**) word-level timestamps. Unlike the original Whisper, which tends to omit disfluencies and follows more of a intended transcription style, CrisperWhisper aims to transcribe every spoken word exactly as it is, including fillers, pauses, stutters and false starts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "octokit": "^4.1.3"
+  },
+  "devDependencies": {
+    "smee-client": "^3.1.1"
+  }
+}
